@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: a4b4ad63e884ffa4988a4138ee3b5823
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - billiardBall0: {fileID: 6457466115315091189, guid: c5134c852dbd40b48bc9c83bebbd2f0c,
+      type: 3}
+  - billiardBall1: {instanceID: 0}
+  - billiardBall2: {instanceID: 0}
+  - billiardBall3: {instanceID: 0}
+  - billiardBall4: {instanceID: 0}
+  - billiardBall5: {instanceID: 0}
+  - billiardBall6: {instanceID: 0}
+  - billiardBall7: {instanceID: 0}
+  - billiardBall8: {instanceID: 0}
+  - billiardBall9: {instanceID: 0}
+  - playerSelectedBall: {instanceID: 0}
+  - enemySelectedBall: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

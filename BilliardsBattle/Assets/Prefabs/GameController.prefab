@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4340310993603077123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4340310993603077122}
+  - component: {fileID: 4340310993603077121}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4340310993603077122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4340310993603077123}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 725.31415, y: 234.35641, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4340310993603077121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4340310993603077123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b4ad63e884ffa4988a4138ee3b5823, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: 0
+  billiardBall0: {fileID: 7372305305276068679, guid: 92fe0d5bb691dcb4ba00707e5d250efe,
+    type: 3}
+  billiardBall1: {fileID: 1191103264832077430, guid: bb65d35d9153c6e4db7c008a0c38d9c3,
+    type: 3}
+  billiardBall2: {fileID: 3475545626320433945, guid: eaf58339380a1284fa3bd54ac5f3d6dd,
+    type: 3}
+  billiardBall3: {fileID: 5928652478075690740, guid: bee4a0934f0cf4d4f9fac9fe41749105,
+    type: 3}
+  billiardBall4: {fileID: 225440017457268678, guid: 2b17fb7246925a548b890ee2f19e5968,
+    type: 3}
+  billiardBall5: {fileID: 2807723117920218503, guid: 14114479172e5ac44af8b4a41d1e6036,
+    type: 3}
+  billiardBall6: {fileID: 5682080375641240579, guid: 39c4d0f2e6eeebd4fa060cbaf2826d31,
+    type: 3}
+  billiardBall7: {fileID: 6270671553204631377, guid: 3cb2d9823c50abe43955e110b994748e,
+    type: 3}
+  billiardBall8: {fileID: 4378512669327903272, guid: 1ecf531173b79f34aabe2ac50bf2b00f,
+    type: 3}
+  billiardBall9: {fileID: 1274178759054775539, guid: d54b08fe075dc7941b1dd6505e0b5cc4,
+    type: 3}
+  playerBallInventory:
+  - {fileID: 7372305305276068679, guid: 92fe0d5bb691dcb4ba00707e5d250efe, type: 3}
+  enemyBallInventory: []
+  playerSelectedBall: {fileID: 0}
+  enemySelectedBall: {fileID: 0}
+  spawner: {fileID: 0}
